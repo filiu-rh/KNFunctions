@@ -1,0 +1,11 @@
+specVersion: 0.35.0
+name: hello-world
+runtime: python
+type: http
+image: dev.local/hello-world
+builders:
+- name: default
+  image: ghcr.io/knative/func/buildpacks-builder
+buildEnvs: []
+envs: []
+volumes: []
